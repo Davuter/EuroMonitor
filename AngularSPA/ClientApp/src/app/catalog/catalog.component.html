@@ -1,0 +1,43 @@
+<section class="esh-catalog-hero">
+  <div class="container">
+
+  </div>
+</section>
+
+
+
+<div class="container">
+  <div >
+
+
+    <div class="esh-catalog-item col-md-4"
+         *ngFor="let item of catalog">
+
+      <img class="esh-catalog-thumbnail" src="{{item.pictureUri}}" />
+    
+
+      <div *ngIf="authenticated && item.subscriptedUser; else elseBlock">
+        <button [ngClass]="{'esh-catalog-button': true , 'is-subscripted' : true}" (click)="unSubscription(item)">
+          [ UNSUBSCRİBE ]
+        </button>
+      </div>
+      <ng-template #elseBlock>
+        <button [ngClass]="{'esh-catalog-button': true }" (click)="addSubcription(item)">
+          [SUBSCRİBE]
+        </button>
+      </ng-template>
+
+   
+      <div class="esh-catalog-name">
+        <span>{{item.name}}</span>
+      </div>
+      <div class="esh-catalog-price">
+        <span>{{item.price | number:'3.2-2'}}</span>
+      </div>
+    </div>
+
+
+    </div>
+  
+</div>
+

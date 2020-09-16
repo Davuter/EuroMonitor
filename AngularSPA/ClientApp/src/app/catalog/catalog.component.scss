@@ -1,0 +1,202 @@
+// Colors
+$color-brand: #00A69C;
+$color-brand-dark: darken($color-brand, 10%);
+$color-brand-darker: darken($color-brand, 20%);
+$color-brand-bright: lighten($color-brand, 10%);
+$color-brand-brighter: lighten($color-brand, 20%);
+
+$color-secondary: #83D01B;
+$color-secondary-dark: darken($color-secondary, 5%);
+$color-secondary-darker: darken($color-secondary, 20%);
+$color-secondary-bright: lighten($color-secondary, 10%);
+$color-secondary-brighter: lighten($color-secondary, 20%);
+
+$color-background-dark: #333333;
+$color-background-darker: #000000;
+$color-background-bright: #EEEEFF;
+$color-background-brighter: #FFFFFF;
+
+$color-foreground-dark: #333333;
+$color-foreground-darker: #000000;
+$color-foreground-bright: #EEEEEE;
+$color-foreground-brighter: #FFFFFF;
+
+// Animations
+$animation-speed-default: .35s;
+$animation-speed-slow: .5s;
+$animation-speed-fast: .15s;
+
+// Fonts
+$font-weight-light: 200;
+$font-weight-semilight: 300;
+$font-weight-normal: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$font-size-xs: .65rem; // 10.4px
+$font-size-s: .85rem; // 13.6px
+$font-size-m: 1rem; // 16px
+$font-size-l: 1.25rem; // 20px
+$font-size-xl: 1.5rem; // 24px
+
+// Medias
+$media-screen-xxs: 360px;
+$media-screen-xs: 640px;
+$media-screen-s: 768px;
+$media-screen-m: 1024px;
+$media-screen-l: 1280px;
+$media-screen-xl: 1440px;
+$media-screen-xxl: 1680px;
+$media-screen-xxxl: 1920px;
+
+// Borders
+$border-light: 1px;
+
+// Images
+$image_path: '/assets/images/';
+$image-main_banner: '#{$image_path}banner.png';
+$image-arrow_down: '#{$image_path}arrow-down.png';
+
+.esh-catalog {
+  $banner-height: 240px;
+
+  &-hero {
+    background-image: url($image-main_banner);
+    background-size: cover;
+    height: $banner-height;
+    width: 100%;
+    bottom:20px;
+  }
+
+  &-title {
+    position: relative;
+    top: $banner-height / 2;
+  }
+
+ 
+
+  $filter-padding: .5rem;
+
+
+
+  &-label {
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+
+    &::before {
+      color: rgba($color-foreground-brighter, .5);
+      content: attr(data-title);
+      font-size: $font-size-xs;
+      margin-left: $filter-padding;
+      margin-top: $font-size-xs;
+      position: absolute;
+      text-transform: uppercase;
+      z-index: 1;
+    }
+
+    &::after {
+      background-image: url($image-arrow_down);
+      content: '';
+      height: 7px; //png height
+      position: absolute;
+      right: $filter-padding * 3;
+      top: $filter-padding * 5;
+      width: 10px; //png width
+      z-index: 1;
+    }
+  }
+
+  &-send {
+    background-color: $color-secondary;
+    color: $color-foreground-brighter;
+    cursor: pointer;
+    font-size: $font-size-m;
+    margin-top: -$filter-padding * 3;
+    padding: $filter-padding;
+    transition: all $animation-speed-default;
+
+    &:hover {
+      background-color: $color-secondary-darker;
+      transition: all $animation-speed-default;
+    }
+  }
+
+  &-items {
+    margin-top: 1rem;
+  }
+
+  &-item {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+    float: none !important;
+
+    @media screen and (max-width: $media-screen-m) {
+      width: 50%;
+    }
+
+    @media screen and (max-width: $media-screen-s) {
+      width: 100%;
+    }
+  }
+
+  &-thumbnail {
+    max-width: 370px;
+    width: 100%;
+  }
+
+  &-button {
+    background-color: $color-secondary;
+    border: 0;
+    color: $color-foreground-brighter;
+    cursor: pointer;
+    font-size: $font-size-m;
+    height: 3rem;
+    margin-top: 1rem;
+    transition: all $animation-speed-default;
+    width: 80%;
+
+    &.is-disabled {
+      opacity: .5;
+      pointer-events: none;
+    }
+
+
+    &.is-subscripted {
+      background-color: $color-background-dark;
+      border: 0;
+      color: $color-foreground-brighter;
+    }
+
+    &:hover {
+      background-color: $color-secondary-darker;
+      transition: all $animation-speed-default;
+    }
+  }
+
+
+
+  &-name {
+    font-size: $font-size-m;
+    font-weight: $font-weight-semilight;
+    margin-top: .5rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &-price {
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+
+    &::before {
+      content: '$';
+    }
+  }
+
+  &-alert {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,13 @@
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Storage\bin\Debug\netstandard2.0\Subscription.Storage.deps.json
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Storage\bin\Debug\netstandard2.0\Subscription.Storage.dll
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Storage\obj\Debug\netstandard2.0\Subscription.Storage.AssemblyInfoInputs.cache
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Storage\obj\Debug\netstandard2.0\Subscription.Storage.AssemblyInfo.cs
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Storage\bin\Debug\netstandard2.0\Subsricption.Domain.dll
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Storage\obj\Debug\netstandard2.0\Subscription.Storage.csprojAssemblyReference.cache
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Storage\bin\Debug\netstandard2.0\Subscription.Storage.pdb
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Storage\bin\Debug\netstandard2.0\Subscription.Application.dll
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Storage\bin\Debug\netstandard2.0\Subscription.Application.pdb
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Storage\bin\Debug\netstandard2.0\Subsricption.Domain.pdb
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Storage\obj\Debug\netstandard2.0\Subscription.Storage.csproj.CopyComplete
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Storage\obj\Debug\netstandard2.0\Subscription.Storage.dll
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Storage\obj\Debug\netstandard2.0\Subscription.Storage.pdb

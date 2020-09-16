@@ -1,0 +1,23 @@
+<h2 id="tableLabel">My Subscriptions</h2>
+
+
+<p *ngIf="!items"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="items">
+  <thead>
+    <tr>
+      <th>Subscription Date</th>
+      <th>Book Name</th>
+      <th>Status</th>
+      <th>UnSubscription Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of items.subscriptions">
+      <td>{{ item.subscritionDate }}</td>
+      <td>{{ item.productName }}</td>
+      <td>{{ item.status.name }}</td>
+      <td>{{ item.unSubscritionDate }}</td>
+    </tr>
+  </tbody>
+</table>

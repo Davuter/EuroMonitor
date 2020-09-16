@@ -1,0 +1,11 @@
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Application\bin\Debug\netstandard2.0\Subsricption.Domain.dll
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Application\obj\Debug\netstandard2.0\Subscription.Application.csprojAssemblyReference.cache
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Application\obj\Debug\netstandard2.0\Subscription.Application.AssemblyInfoInputs.cache
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Application\obj\Debug\netstandard2.0\Subscription.Application.AssemblyInfo.cs
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Application\bin\Debug\netstandard2.0\Subscription.Application.deps.json
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Application\bin\Debug\netstandard2.0\Subscription.Application.dll
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Application\bin\Debug\netstandard2.0\Subscription.Application.pdb
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Application\bin\Debug\netstandard2.0\Subsricption.Domain.pdb
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Application\obj\Debug\netstandard2.0\Subscription.Application.csproj.CopyComplete
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Application\obj\Debug\netstandard2.0\Subscription.Application.dll
+D:\DvtEr\EuroMonitor\Assignment\EuroMonitor\Services\Subscription\Subscription.Application\Subscription.Application\obj\Debug\netstandard2.0\Subscription.Application.pdb
