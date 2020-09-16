@@ -1,6 +1,8 @@
 # EuroMonitor
 Assessment
 
+https://github.com/Davuter/EuroMonitor/blob/master/eur%C4%B1monitor.png
+
 WEB UI
 
 I used Angularjs for development.
